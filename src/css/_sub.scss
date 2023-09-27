@@ -1,0 +1,120 @@
+/*common*/
+.sub_wrap{
+    background-color: #f8f8f8; padding: 56px 0;
+}
+.s_tit1{
+    font-size:30px; line-height: 38px; color:#333;
+    font-weight: 500; letter-spacing: -0.03em;
+    margin-bottom: 27px; margin-left: -3px;
+}
+.input_ty1{
+    font-size: 15px; color:#333; height:45px; line-height: 43px;
+    background: #fff; border:1px solid #dedede; outline:none;
+    text-indent: 20px; box-sizing: border-box; padding-right: 15px;
+    ::placeholder{color:#cdcdcd;}
+}
+
+/*검색*/
+.sch_ty1{
+    position: relative; width:172px; height:45px; font-size: 16px;
+    color:#333; box-sizing: border-box; border:1px solid #dedede;
+    background:#fff;
+        .on{
+            h3{
+                ::after{
+                    transform: rotate(180deg);
+                }
+            }    
+        }
+        h3{
+        position: relative;  font-size: 1rem;   line-height: 45px;  
+        color:#333; font-weight:400; box-sizing: border-box;
+        text-indent: 21px; cursor:pointer; letter-spacing: -0.03em;
+            :after{
+            position:absolute; content:''; width:11px; height:7px;
+            background:url(.././img/sub/sch_arr.png) center no-repeat;
+            right:20px; top:50%; margin-top:-3px; transition: .3s;   
+            }
+        }
+}
+.schb_ty1{
+display:none; position: absolute; left:-1px; top:43px;
+box-sizing: border-box; border:1px solid #dedede;   
+background-color: #fff;  width:172px; overflow:hidden;
+z-index:10;
+    li{
+    position: relative; height:52px; font-size: 15px;
+    color:#606060; background-color: #fff;
+        :after{
+        position: absolute; content:'';width:100%;
+        height:1px; background-color: #dedede;   
+        bottom:0; left:0;
+        }
+        :last-child{
+            :after{display:none;}
+        }
+        label{
+        display:block; position: relative; cursor:pointer;
+        box-sizing: border-box; padding-left: 21px;  
+            :before{
+            position: absolute; content: '';width:16px;
+            height:16px;box-sizing: border-box;   
+            border:1px solid #ddd; 
+            background:url(.././img/sub/check_bg.jpg) left top ;
+            right:19px; top:50%; margin-top: -8px;
+            }
+            ::after{
+            position: absolute; content:''; width:16px; height:16px;
+            background: url(.././img/sub/check_on.png) center no-repeat;
+            right:19px; top:50%; margin-top:-8px; opacity:0; 
+            transition:.3s;
+            }
+            .on{
+                after{opacity: 1;}
+            }
+        }
+    }
+    span{
+    display:none;    
+    }
+    .on{
+        h3{
+            :after{
+                transform:rotate(180deg);
+            }
+        }
+    }
+}
+.sch_bt{
+    position: absolute; content:''; width:51px; height:45px;
+    background-color: #e0931f; transition: .3s;
+    :hover{
+    background:#000;
+    }
+    ::before{
+        position: absolute; content: '';width:51px; height:45px;
+        background: url(.././img/sub/sch_ddot.png) center no-repeat;
+    }
+}
+.sch_bt2{
+    font-size: 16px; color:#fff; background:#c79448;
+    height:45px; line-height: 45px; text-align: center;
+    position: relative; width:172px; font-weight: 400;
+    transition: .3s;
+    :hover{
+    background-color: #000;   
+    }
+        :after{
+        display: inline-block; content:''; width:16px;
+        height:11px;background: url(.././img/sub/schb2_icon.png)center no-repeat; 
+        margin-left:10px;  
+        }
+}
+.sch_bt02{
+    :after{
+    display: inline-block; content: ''; width:17px;
+    height: 24px; 
+    background: url(.././img/sub/schb2_iconno1.png) center no-repeat;
+    margin-left:10px; vertical-align: top; padding-top: 17px;
+    }
+}

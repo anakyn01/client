@@ -1,0 +1,40 @@
+.page_ty1{
+    text-align: center; margin-top: 50px;
+    ul{
+        li{
+            display: inline-block;
+            vertical-align: top; width:21px; height:20px;
+            text-align: center; font-size: 1rem;
+            color:#303030; margin-right:2px;
+            .on{
+                a{color: #25489e; text-decoration: underline;}
+            }
+        }
+    }
+}
+.start_page{
+margin-top:7px; padding:0px 12px;
+    :hover{
+        a{
+            background: #2c2c92 url(.././img/sub/pazer_arr.png) 6px 6px no-repeat;
+        }
+    }
+    a{
+    display:block; width:20px; height:20px; 
+    background:#dbdbdb url(.././img/sub/pazer_arr.png) 6px 6px no-repeat;
+    border-radius: 50%; transition: .3s;
+    }
+}
+.last_page{
+margin-top:7px; margin-left:3px; padding:0px 12px;
+    :hover{
+        a{
+            background: #2c2c92 url(.././img/sub/pazer_arr2.png) 8px 5px no-repeat;
+        }
+    }
+    a{
+    display:block; width:20px; height:20px; 
+    background:#dbdbdb url(.././img/sub/pazer_arr2.png) 8px 5px no-repeat;
+    border-radius: 50%; transition: .3s;
+    }
+}

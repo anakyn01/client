@@ -1,0 +1,61 @@
+.li_top_sch {
+    margin-bottom:19px;
+    .sch_ty1{float:left; margin-right: 9px;}
+    .input_ty1{width:402px; float:left;}
+    .sch_bt{float:left;}
+    .sch_bt2{float:right;}
+}
+.list_cont {
+    .table_ty1{
+        tr{
+            th{
+                :first-child{
+                width:379px; box-sizing: border-box;
+                }
+                :last-child{
+                width:100px; box-sizing: border-box;
+                }
+            }
+        }
+    }
+    .table_ty2{
+        tr{
+            th{
+                :first-child{
+                width:379px; box-sizing: border-box;    
+                }
+                :last-child{
+                width:100px; box-sizing: border-box;
+                }
+            }
+            td{
+                :first-child{
+                    a{
+                    position: relative; padding-left: 50px;  
+                        ::before{
+                        position: absolute; content:"";
+                        width:12px; height:15px; 
+                        background-image: url(.././img/sub/rock_img.png) center no-repeat; 
+                        left:21; top:50%; margin-top: -7px;  
+                        }
+                    }  
+                }
+                :last-child{
+                width:100px; box-sizing: border-box;
+                }
+                :nth-child(5){
+                    line-height: 20px;
+                }
+            }
+        }
+        .normal_type{
+            td{
+                :first-child{
+                    a:before{
+                        background-image: url(.././img/sub/open_img.png) center no-repeat;
+                    }
+                }
+            }
+        }
+    }
+}

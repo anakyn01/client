@@ -1,0 +1,134 @@
+/*main*/
+.main{
+    height:800px; width:100%;
+    background-size:cover; 
+    background-image:url(.././img/main/mv1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display:table; table-layout: fixed;
+        .m_login{
+        display:table-cell; text-align: center; vertical-align: middle;
+            .s_bt{
+            background-color: #c79448; color:#f2f2f2;
+            font-size: 1.2rem;  line-height: 65px;
+            height:65px; border:0; width:418px; transition: .3s;
+                :hover{
+                background-color: #f3a721;    
+                }
+            }
+            ul{
+            overflow: hidden; clear:both; margin-top: 20px;  
+            margin-bottom: 32px; 
+                li{
+                float:left;
+                    :hover{
+                        a{
+                            color:#fff;
+                        }
+                    }
+                    a{
+                    position: relative;  text-align: left; 
+                    font-size: .8rem;  line-height: .8rem;
+                    color:rgba(255,255,255,.8);
+                    padding: 0 14px; font-weight: 400;
+                    transition: .3s;
+                    }
+                    :first-child{
+                        a{
+                            padding-left:0;
+                            :after{
+                            position: absolute; content:'';width:1px;
+                            height:9px; background-color: #fff;
+                            opacity: .15; right: 0; top:50%;
+                            margin-top: -3px;
+                            }
+                        }
+                    }
+                }
+            }
+            h3{
+            font-size: 3.4rem; line-height: 67px; color:#fff;
+            font-weight: 400; letter-spacing: 0;
+            vertical-align: middle; margin-bottom: 39px;
+                span{
+                margin-right:17px;    
+                }
+            }
+            .log_box{
+                width:418px; margin:0 auto;
+                .in_ty1{
+                position: relative;
+                background-color: #fff;
+                width:418px; height: 55px;  
+                display: block;
+                margin: 0 auto 14px;  
+                text-align: left; transition: .3s;
+                    :hover{
+                    box-shadow: 0px 0px 20px rgba(255,255,255,.3);    
+                    }
+                    input{
+                    height:55px; line-height: 55px; border:0 !important;
+                    font-size: 16px; color:#9a9a9a; width:355px; 
+                    outline:none; padding-left: 18px;
+                        ::placeholder{
+                        color:#9a9a9a; font-size: 1rem;
+                        line-height: 55px;
+                        }
+                    }
+                    span{
+                    position: relative;
+                    width:50px; height: 55px;transition: .3s;
+                    display: block; float:left; 
+                        img{
+                        padding:20px; transition: .3s;   
+                        }    
+                        .ic_2{
+                            img{
+                                padding-top: 26px;
+                            }
+                        }
+                    }
+                }
+            }
+    }
+}
+.btn_confirm_m{
+    text-align: center; overflow: hidden; width:418px; margin-top: 30px;
+}
+.bt_ty_m{
+    width:204px; display:block; float:left; margin-right:10px; height:65px;
+    line-height:65px; font-size:20px; text-align: center;
+    :hover{
+        :before{
+        left:-13%;
+        }
+    }
+}
+.m_pw{
+    position: relative; display: none; padding-bottom: 10px;
+    h3{
+        padding-left: 2px; margin-bottom: 45px;
+    }
+}
+.pw_two{
+    display: none;
+    .in_ty1{
+        span{
+            .on{
+                :after{
+                    opacity: 0;
+                }
+            }
+            :after{
+                position: absolute;
+                content:'';
+                width:50px; height: 55px;
+                background-image:url(.././img/main/m_log_i4_h.png) ;
+                background-position: center;
+                background-repeat: no-repeat;
+                left:3px; top:3px;
+                transition: .3s;
+            }
+        }
+    }
+}

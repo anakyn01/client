@@ -1,0 +1,29 @@
+/*title*/
+.title_ty1{
+    position: relative; font-size:20px; line-height: 20px;
+    font-weight:500; color:#303030; padding-left: 22px;
+    letter-spacing: -0.03em; margin-bottom: 19px;
+    :before{
+    position: absolute; content: ''; width:11px; height:11px;
+    border-radius: 50%; box-sizing: border-box;
+    border:3px solid #2c2c92; left:0; top:50%; 
+    margin-top:-5px;
+    }
+    a{
+    display:block; width:22px; height:22px; background: #fff;
+    border:1px solid #ddd; position:absolute ;
+    right:0; top:0; box-sizing: border-box;
+    }
+    a:after{
+    position: absolute; content: '';width:22px;height:22px;
+    background: url(".././img/sub/f_more.png") center no-repeat;
+    right:-1px; top:-1px; transition:1.2s;
+    }
+    a:hover:after{
+    transform:rotate(360deg)
+    }
+
+}
+.wi_au{
+width:auto !important; padding: 0 15px; 
+}

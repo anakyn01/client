@@ -1,0 +1,32 @@
+.map_box {
+    overflow: hidden;
+    div{
+        float:left;
+    }
+    .r_map{
+        width:906px; float:right; 
+    }
+}
+.blue_c{
+    color:#2b62c6;
+}
+.l_map{
+    width:354px;
+    .map_all{background-color: #fff; width:354px; 
+    margin:0 auto; text-align: center;
+    border-top: 2px solid #2c2c92;
+    }
+}
+.main_map{
+    margin:0 auto; width:auto; border:none; height:auto;
+    max-width:100%;
+}
+.r_map{
+    max-height: 720px; overflow: hidden; overflow-y: auto;
+    .table_ty1{
+    margin-bottom: 10px;   
+    }
+}
+.highcharts-button{
+    display: none;
+}

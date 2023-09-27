@@ -1,0 +1,7 @@
+.blind{position:absolute; left:-9999px; top:-9999px;}
+.fl{float:left;}.fr{float:right;}.mc{margin:0 auto;}
+.clear:after{content:""; display:block; clear:both;}
+.fawb:before, .fawa:after{
+font-family:FontAwesome; text-rendering:auto;
+-webkit-font-smoothing:antialiased;    
+}

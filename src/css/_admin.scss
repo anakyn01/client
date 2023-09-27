@@ -1,0 +1,43 @@
+/*관리자 css*/
+
+.gnb_admin > ul > li > a {padding: 0 25px;}
+
+/*유저관리 리스트*/
+.us_top{overflow: hidden; background: #fff; border: 1px solid #dedede; height: 69px; box-sizing: border-box; padding: 0px 40px; padding-right: 0; margin-bottom: 20px;}
+.user_sch{float: left;}
+.user_sch > label{font-size: 17px; font-weight: 500; color: #303030; line-height: 67px;}
+.user_sch > input{border: 0; border-bottom: 1px solid #ddd; font-size: 15px; color: #303030; margin: 20px 38px 0 18px; vertical-align: top; }
+.user_sch > input::placeholder {color: #cdcdcd;}
+.user_sch0 input{margin-right: 0;}
+.user_sch .sch_bt3{margin-top: -10px; margin-left: 8px !important;}
+.user_sch1 > input{width: 174px;}
+.user_sch2 > input{width: 253px;}
+.user_sch3 input{border: 0; border-bottom: 1px solid #ddd; width: 118px;}
+.user_sch3.cal_box{margin-left: 21px; margin-top: 0 !important;}
+.user_sch3.cal_box img{vertical-align: top; padding: 0; margin-top: 24px; margin-right: 7px;}
+.user_sch3.cal_box img:last-child{margin-right: 0;}
+.ml12{margin-left: 6px !important;}
+.pl0{padding-left: 1px !important;}
+.us_top .sch_bt3{margin-top: -10px; margin-left: 16px;}
+.user_check{float: left; margin-left: 40px;}
+.user_check input{display: none;}
+.user_check label{position: relative; font-size: 16px; line-height: 67px; color: #606060; font-weight: 400; padding-left: 25px; margin-left: 16px;}
+.user_check span{font-size: 17px; line-height: 67px; font-weight: 500; color: #303030;}
+.user_check label:before{position: absolute;content: '';width: 16px;height: 16px;box-sizing: border-box;border: 1px solid #ddd;background: url(../img/sub/check_bg.jpg) left top;left: 0;top: 50%;margin-top: -7px;}
+.user_check label:after{position: absolute;content: '';width: 16px;height: 16px;background: url(../img/sub/check_on.png) center no-repeat; left: 0; top: 50%;margin-top: -7px; opacity: 0;transition: .3s;}
+.user_check input[type="checkbox"]:checked + label:after {opacity: 1;}
+.list_cont_admin .table_ty1 tr th:first-child, .list_cont_admin .table_ty2 tr td:first-child {width: auto; text-align: center;}
+.list_cont_admin .table_ty1 tr th:last-child, .list_cont_admin .table_ty2 tr td:last-child {width: auto;}
+.list_cont_admin .table_ty2 tr th:first-child, .list_cont_admin .table_ty2 tr td:first-child {width: auto; text-align: center;}
+.list_cont_admin .table_ty2 tr th:last-child, .list_cont_admin .table_ty2 tr td:last-child {width: auto;}
+.list_cont_admin .table_ty2 tr td{vertical-align: middle;  height: 58px; padding: 0; line-height: 16px;}
+.w50_b{width: 50px !important; height: 24px !important; line-height: 24px !important; font-size: 13px; margin-left: 0;  vertical-align: middle;}
+.pj_txt ul li{font-size: 14px; line-height: 22px; padding-left: 24px;}
+.list_cont_admin .ad_tlist tr th:nth-child(2), .list_cont_admin .ad_tlist tr td:nth-child(2) {width: 70%; text-align: center; text-align: left; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box; padding-left: 20px;}
+.list_cont_admin .ad_tlist tr th:nth-child(2){text-align: center;}
+.cal_box_admin img{padding-top: 4px;}
+
+
+.log_table tr th:nth-child(3),
+.log_table tr td:nth-child(3){width: 55%;}
+.log_table tr td:nth-child(3){text-align: left; padding-left: 20px;}

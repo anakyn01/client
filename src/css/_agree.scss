@@ -1,0 +1,110 @@
+.check_top{
+    overflow:hidden; height:70px; box-sizing: border-box;
+    border:1px solid #dbdbdb; border-bottom: 0;
+    padding: 0px 10px;
+    h3{
+        font-size:20px; line-height: 70px; color:#303030;
+        font-weight: 700; float: left; letter-spacing: -0.03em;
+    }
+    label{
+        float:right; font-size: 14px; line-height: 70px; color:#606060;       
+    }
+    input{float:right; margin-top:30px; margin-left:5px;}
+}
+
+.re_check{
+    .check_wrap{
+        background-color: #fff; box-sizing: border-box; padding: 70px;
+    }
+    .check_cnt{
+        textarea{
+            width:100%; height:215px; max-width:100%; font-size: 1rem;
+            color:#606060; border:1px solid #e1e1e1; padding:10px;
+            outline:none; background-color: #fff; letter-spacing: -0.03em;
+        }
+    }
+    .check_cnt2{
+        margin-top:40px;
+    }
+}
+
+.agree_box{
+    text-align: right; font-size: 1rem; line-height: 16px;
+    color:#606060; margin:40px 0px;
+    input{
+        display: none;
+        :checked + label:after{
+        opacity:1;    
+        }
+    }
+    label{
+        position: relative; padding-left: 26px;
+        ::before{
+            position: absolute; content:""; width:16px; height:16px;
+            background-image: url(.././img/sub/agree_i.png) center no-repeat;
+            left:0; top:5px;
+        }
+        ::after{
+            position: absolute; content:""; width:8px; height:8px;
+            background:#2c2c92;left:4px; top:9px;border-radius:50%;
+            opacity:0; transition: .3s;
+        }
+    }
+}
+.btn_confirm{
+    text-align: left;
+    a{
+     :last-child{margin-right:0;}   
+    }
+}
+
+.re1_wrap{
+    background-color: #fff; padding: 70px; box-sizing: border-box;
+    .table_ty1{
+        tr{
+            th{
+            width:152px; text-align: left; border:0;
+            letter-spacing: -0.03em; font-size: 1rem;
+            }
+            td{
+            height:45px; padding: 14px 0px; text-align: left;
+            font-size: 1rem; width:100%;
+                input, select{
+                width:552px; height:45px; line-height: 43px;  
+                box-sizing: border-box;  border:1px solid #ddd;
+                padding:0 20px; font-size: 15px;
+                }
+                select{
+                color:#cdcdcd; transition: .3s;
+                    .on{
+                    color:#606060;    
+                    }
+                }
+            }
+        }
+        .re_email{
+            td{
+                input, select{
+                    width:257px !important;
+                }
+            }
+        }
+        .tr_tel{
+            td{
+                input, select{
+                width:170px !important;    
+                }
+            }
+        }
+    }
+}
+.e_goll{width:37px; font-size: 1rem; color:#606060; padding:0 9px;}
+.tel_dot{
+font-size: 20px; color:#606060; width:15px; display:inline-block;
+text-align: center;    
+}
+
+input::placeholder, textarea::placeholder{color:#cdcdcd;}
+.re_1 .btn_confirm{
+    text-align: center; margin-top:50px;
+}

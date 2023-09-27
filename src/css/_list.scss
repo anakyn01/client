@@ -1,0 +1,52 @@
+.tb_outline{
+    overflow: hidden; border-color: 2px solid #6d3652;
+    margin-top:10px; 
+}
+.bo_list{
+    width:1300px; margin:10px auto; display: block; font-size: 14px;
+    overflow: hidden;
+    .div_tb{
+        display: table; table-layout: fixed; width:100%;
+        border-collapse: collapse; border-spacing: 0;
+        overflow: hidden;
+    }
+    .div_tb_tr{
+        display: table-row;
+    }
+    .div_th{
+        display: table-cell; padding: 10px; font-size: 14px;
+        color:#333; font-weight: 400; text-align: center;
+        vertical-align: middle; background-color: #f4f7f9;
+        border:1px solid #ddd; border-right:0;box-sizing: border-box;
+        overflow: hidden;
+        :first-child{
+            border-left:0;
+        }
+    }
+    .div_td { 
+        display:table-cell; padding:10px 10px; 
+        color:#333; text-align:center; vertical-align:middle; 
+        background:#fff; border:1px solid #ddd; 
+        border-right:0; font-weight: 400;
+        :first-child { border-left:0; }
+        a { display:block; width:auto; text-overflow:ellipsis; 
+            white-space:nowrap; overflow:hidden; font-weight: 400; 
+        }
+
+    }
+    .col_num { width:5%; }
+    .col_check { width:5%; }
+    .col_subject { width:auto; }
+    .col_writer { width:15%; }
+    .col_date { width:10%; }
+    .col_hit { width:6%; }
+    .div_td.col_subject { text-align:left; }
+    .div_nodata { display:block; padding:100px 0; 
+        text-align:center; border-bottom:1px solid #ddd; 
+        font-size:14px;}
+}
+.col_subject {
+    span{
+        vertical-align: middle;	display: inline-block;
+    }
+}

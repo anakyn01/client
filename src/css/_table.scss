@@ -1,0 +1,187 @@
+.table_ty1{
+    border-top: 2px solid #2c2c92; table-layout: fixed; position: relative;
+    tr{
+        th{
+            border:1px solid #ddd; background-color: #fff;font-size:17px;
+            color:#303030; font-weight: 500; height: 59px;
+            box-sizing: border-box;
+                a{
+                font-size:1.05rem; color:#303030;
+                font-weight:500;
+                    :after{
+                    content: ''; display: inline-block;   
+                    width:10px; height:6px; 
+                    background-image: url(.././img/sub/ta_b.png)center no-repeat;
+                    vertical-align: top; margin-top: 27px;
+                    margin-left: 8px;
+                    }
+                }
+                .on{
+                    a{
+                        :after{
+                            content:''; display: inline-block; width:10px;
+                            height:6px; background:url(.././img/sub/ta_t.png) center no-repeat;
+                            vertical-align: top; margin-top: 27px; margin-left:8px;
+                        }
+                    }
+                }
+                after{
+                    position: absolute; content: ''; width:100%;
+                    height:2px; background: #6d3652; left:0; top:0;
+                }
+        }
+    }
+}
+.table_ty2 {
+    border: 1px solid #ddd; margin-top: 9px;
+    tr{
+        background:#fff;
+        :nth-child(2n+2){background:#f4f7f9;}
+        :first-child{text-align: left;}
+        :last-child{border-right:0;}
+        td{
+            h4{
+                font-size: 1rem; line-height: 16px; color:#606060;
+                font-weight:400; margin-bottom: 7px;
+                span{
+                display: inline-block; width:35px; height:15px; 
+                background-color: #fff; font-size: 0.8rem;
+                color:#fff; line-height: 15px; font-weight:400;
+                text-align: center; vertical-align: middle;
+                margin-top: -2px; margin-left: 9px;
+                }
+            }
+            border-right:1px solid #ddd; padding:16px 0px 14px;
+            position: relative; font-size: 16px; color:#606060;
+            :after{
+            position: absolute; content:''; width:100%;
+            height:1px; background:url(.././img/sub/table_ddot.png) left center;
+            left:0; bottom:0; z-index:10;
+            }
+            p{
+            font-size:15px; line-height:15px; color:#a1a1a1;
+            font-weight:400; text-overflow: ellipsis;
+            white-space: nowrap; word-wrap: normal;
+            overflow: hidden;
+            }
+        }
+    }
+}
+.table_ty3{
+    text-align: left; background-color: #fff;
+    position:relative;  border-top:2px solid #2c2c92;
+    tr{
+        position: relative;
+        th{
+        font-size:1rem; color:#303030; line-height: 20px;
+        font-weight:400; padding:16px 0 21px; 
+        vertical-align: top; letter-spacing: -0.03em;
+        width:174px; position:relative; box-sizing: border-box;
+        padding-left: 62px; text-align: left;
+            ::before{
+            position: absolute; content:''; width:8px; height:3px;
+            left:39px; top:27px; background: #22223e;  
+            }
+            ::after{
+            position: absolute; content:''; width:631px; height:1px;
+            background-image: url('.././img/sub/table_ddot.png') center;
+            left:0; bottom:0;
+            }
+            .last_th{
+                ::after{display:none;}
+            }
+        }
+        td{
+        font-size:1rem; color:#303030; line-height: 20px;
+        font-weight:400; padding:16px 0 21px; 
+        vertical-align: top; letter-spacing: -0.03em;
+            span{
+            color:#e90000;    
+            }
+        }
+    }
+}
+.table_ty4{
+    position: relative;
+    tr{
+        :first-child td{
+            :before{
+             position: absolute;  content:''; width:3px; 
+             height:100%; right:0; top:0; background:#ededed; 
+            }
+            :after{
+            position: absolute;  content:''; width:3px; 
+            height:50%; right:0; top:0; background:#bcbcbc;   
+            }
+        }
+        th{
+        height:57px; line-height: 57px; padding:0; vertical-align: middle;
+            ::before{
+            display:none;    
+            }
+        }
+        td{
+        height:57px; line-height: 57px; padding:0; vertical-align: middle;
+            a{
+            vertical-align: top !important; margin-top:17px;    
+            }
+        }
+    }
+}
+.table_ty5{
+    tr{
+        th{
+        height:57px; line-height: 57px;
+        }
+        td{
+        height:57px; line-height: 57px;
+            a{
+            vertical-align: top !important; margin-top:17px;    
+            }
+        }
+    }
+}
+.table_ty6{
+    tr{
+        th{
+            height:57px; line-height: 57px; padding: 0;
+            padding-left:62px;
+        }
+        td{
+            height:57px; line-height: 57px; padding: 0;
+        }
+    }
+}
+.table_ty7{
+    tr{
+        :first-child td{
+            :before{
+                position: absolute;  content:''; width:3px; 
+                height:100%; right:0; top:0; background:#ededed; 
+            }
+            :after{
+                position: absolute;  content:''; width:3px; 
+                height:50%; right:0; top:0; background:#bcbcbc;   
+            }
+        }
+    }
+}
+.table_ty8{
+    border-top:2px solid #2c2c92; font-size: 1rem;
+    tr{
+        th{
+        background-color: #f4f7f9; line-height: 44px;
+        color:#303030; font-weight: 400; position: relative;
+        }
+        td{
+        font-size: 1rem; line-height: 20px; color:#606060;
+        padding:12px 0; position: relative; text-align: center;
+        background-color: #fff;
+            ::after{
+            position: absolute; content:''; width:631px; height:1px;
+            background-image: url(.././img/sub/table_ddot.png) center;
+            left:0; bottom:0;
+            }
+        }
+    }
+}

@@ -1,0 +1,82 @@
+/*common*/
+@charset "utf-8";
+html, html * {
+max-height:10000px; margin:0; padding:0;    
+}
+html{
+font-size:16px;
+    body{
+        font-family: 'MalgunGothic','맑은 고딕','돋움',Dotum,'굴림',
+        Gulim,Tahoma,Verdana,Geneva,sans-serif,AppleGothic;  
+        font-size:.8rem; font-weight:400; color:#505050;
+        line-height: 30px; letter-spacing: -0.03em;
+        -webkit-text-size-adjust: none;
+        -moz-osx-font-smoothing:grayscale;
+        min-width:1280px;
+        img, fieldset, button {border:none;}
+        hr, button img {display:none;}
+        input, select, button, textarea {
+        font-family: 'MalgunGothic','맑은 고딕','돋움',Dotum,'굴림',
+        Gulim,Tahoma,Verdana,Geneva,sans-serif,AppleGothic;   
+        font-size:0.9rem; font-weight:400; color:#505050;
+        line-height:30px; letter-spacing:-0.03em;
+        box-sizing:border-box;
+        vertical-align: middle;
+        }
+        input [type=submit] {
+        cursor:pointer; appearance:none; 
+        -moz-border-radius:0; 
+        -webkit-border-radius:0;
+        border-radius:0;
+        }
+        select::-ms-expand {display:none;}/*화살표 기본 css없애기*/
+        ul, ol, li {
+        list-style-type: none;
+        }
+        a{display:block; font-weight:400; color:#505050;
+        text-decoration: none;
+        }
+        a:hover, a:active, a:focus, a:visited {
+        text-decoration: none;
+        }
+        textarea{overflow:auto; border-radius:5px; 
+        border-color:#bdbdbd;
+        }
+        table{width:100%; 
+        table-layout: fixed; 
+        border-collapse:collapse;
+        border-spacing:0; text-align: center;
+        caption{
+            width:0; height:0; margin:0; padding:0; 
+            font-size:0; line-height:0; text-indent:9999px;
+            overflow:hidden; visibility:hidden;    
+            }
+            img{
+            vertical-align: top; 
+            }
+            tr{
+                th, td{
+                vertical-align:middle; width:auto;
+                }
+            }
+        }
+        legend{
+        position:absolute; left:0; top:0; 
+        width:0; height:0; overflow: hidden;  
+        visibility: hidden;  font-size:0;
+        line-height:0;
+        }
+
+        em{font-style: normal;}
+        p{display: block;}
+        @import "common";
+        @import "detail";
+    }
+}
+@import 'class';
+
+
+
+
+
+
